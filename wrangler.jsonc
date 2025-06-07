@@ -17,7 +17,20 @@
 	},
 	"observability": {
 		"enabled": true
-	}
+	},
+	"d1_databases": [
+		{
+		"binding": "DB",
+		"database_name": "file-share-app",
+		"database_id": "3ed96ee1-2633-426e-9382-952a95de2221"
+		}
+	],
+	"r2_buckets": [
+		{
+			"binding": "R2",
+			"bucket_name": "file-share-apps"
+		}
+	]
 	/**
 	 * Smart Placement
 	 * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
